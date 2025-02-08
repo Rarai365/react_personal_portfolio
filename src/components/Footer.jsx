@@ -1,3 +1,4 @@
+import { Link, Outlet } from "react-router";
 const Footer = () => {
   return (
     <>
@@ -7,19 +8,19 @@ const Footer = () => {
             <h6>Links</h6>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#Skills">Skills</a>
+                <Link to="/Skills">Skills</Link>
               </li>
               <li>
-                <a href="#Projects">Projects</a>
+                <Link to="/recentworks">Projects</Link>
               </li>
               <li>
-                <a href="#About">About</a>
+                <Link to="/aboutme">About</Link>
               </li>
               <li>
-                <a href="#Contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -46,6 +47,8 @@ const Footer = () => {
           &copy; Copy right all reserved. Made by RRR.
         </center>
       </footer>
+
+      <Outlet />
     </>
   );
 };

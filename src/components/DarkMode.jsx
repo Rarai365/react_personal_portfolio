@@ -1,7 +1,7 @@
 const DarkMode = () => {
   return (
     <>
-      <label className="dark-mode-toggle" for="dark-mode">
+      <label className="dark-mode-toggle" htmlFor="dark-mode">
         <i className="fa-solid fa-circle-half-stroke"></i>
       </label>
 

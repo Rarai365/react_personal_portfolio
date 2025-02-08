@@ -368,4 +368,5 @@ go to top section */
 #dark-mode:checked ~ .wrapper-container {
   --bg-color: var(--dark-bg-color);
   --text-color: var(--dark-text-color);
+  --border-color: var(----border-color);
 }

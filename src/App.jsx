@@ -22,7 +22,7 @@ import SkillsPage from "./pages/SkillsPage";
 import MyRecentWork from "./pages/MyRecentWork";
 import AboutMePage from "./pages/AboutMePage";
 import Contact from "./pages/Contact";
-import SummaryPage from "./pages/summaryPage";
+import SummaryPage from "./pages/SummaryPage";
 
 function App() {
   return (

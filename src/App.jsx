@@ -17,7 +17,7 @@ import DarkMode from "./components/DarkMode";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Route, Router, Routes } from "react-router";
-import HeroSectionPage from "./pages/herosectionpage";
+import HeroSectionPage from "./pages/HeroSectionPage";
 import SkillsPage from "./pages/SkillsPage";
 import MyRecentWork from "./pages/MyRecentWork";
 import AboutMePage from "./pages/AboutMePage";

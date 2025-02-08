@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="flex-container">
               <div className="logo-name">Rajesh</div>
               <p className="line">|</p>
-              <p>Soft. Engineer</p>
+              <p>Soft. Developer</p>
             </div>
 
             <ul className="flex-container nav-items">

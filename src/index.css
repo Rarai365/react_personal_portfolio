@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
@@ -322,7 +322,6 @@ body {
 }
 
 .footer-container li a:hover {
-  color: var(--primary-color);
 }
 
 footer {

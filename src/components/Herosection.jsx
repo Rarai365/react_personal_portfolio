@@ -10,7 +10,7 @@ const Herosection = () => {
             Hi, I am <b>Rajesh Rai</b>
           </p>
           <p>
-            <b>Soft. Engineer</b>
+            <b>Soft. Developer</b>
           </p>
           <br />
           <p>I love Coding!</p>

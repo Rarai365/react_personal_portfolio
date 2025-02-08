@@ -7,17 +7,29 @@ const GetInTouch = () => {
         </center>
 
         <div className="flex-container get-in-touch-container">
-          <a href="facebook.com">
+          <a>
             <i className="fa-brands fa-linkedin"></i>
           </a>
-          <a href="github.com">
+          <a>
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="youtube.com">
+          <a>
             <i className="fa-brands fa-youtube"></i>
           </a>
-          <a href="tel:0452381231">
-            <i className="fa-brands fa-mobile"></i>
+          <a href="tel:04161453369">
+            <i className="fa-solid fa-mobile"></i>
+          </a>
+        </div>
+
+        <center>
+          <h5>OR</h5>
+        </center>
+
+        <div className="mail-container">
+          <a href="mailto:myemail@dentedcode.com">
+            <button className="download-btn">
+              myemail@dentedcode.com <i className="fa-solid fa-paper-plane"></i>
+            </button>
           </a>
         </div>
       </section>

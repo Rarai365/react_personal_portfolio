@@ -1,32 +1,32 @@
-import myResume from "../assets/rajeshrai.pdf";
-import profileImage from "../assets/a.png";
+import profileImage from "../assets/linkden pic.jpg";
 
 const Herosection = () => {
   return (
-    <section id="home">
-      <div className="grid-container hero-section">
-        <div className="intro-text">
-          <p>
-            Hi, I am <b>Rajesh Rai</b>
-          </p>
-          <p>
-            <b>Soft. Engineer</b>
-          </p>
-          <br />
-          <p>I love Coding!</p>
-
-          <a href={myResume} download>
-            <button className="download-btn">
-              Download CV
-              <i className="fa-solid fa-download"></i>
-            </button>
-          </a>
+    <div className="container2">
+      <div className="test">
+        <div className="profile-section">
+          <img
+            src={profileImage}
+            alt="Rajesh Rai Profile"
+            className="profile-image"
+          />
         </div>
-        <div className="profile-image">
-          <img src={profileImage} alt="profile-image" />
+        <div className="text-section">
+          <p>Hello 👋 I'm</p>
+          <section className="animation">
+            <div className="first">
+              <div>Rajesh Rai</div>
+            </div>
+            <div className="third">
+              <div>A Programmer</div>
+            </div>
+            <div className="second">
+              <div>A Web Developer</div>
+            </div>
+          </section>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

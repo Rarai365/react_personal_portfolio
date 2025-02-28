@@ -1,6 +1,6 @@
-import GetInTouch from "../components/GetInTouch";
+import Footer from "../components/Footer";
 
 const Contact = () => {
-  return <GetInTouch />;
+  return <Footer />;
 };
 export default Contact;

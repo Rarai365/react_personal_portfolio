@@ -1,7 +1,7 @@
-import SummarySection from "../components/SummarySection";
+import BlogsSection from "../components/BlogsSection";
 
 const SummaryPage = () => {
-  return <SummarySection />;
+  return <BlogsSection />;
 };
 
 export default SummaryPage;

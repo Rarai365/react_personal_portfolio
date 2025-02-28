@@ -3,7 +3,7 @@ const SkillsSection = () => {
     <>
       <section id="skills">
         <center>
-          <h2>Skills</h2>
+          <h2 className="skills-text">Skills</h2>
         </center>
         <div className="flex-container skills-container">
           <div>
@@ -29,6 +29,15 @@ const SkillsSection = () => {
           <div>
             <i className="fa-brands fa-figma"></i>
             <p>Figma</p>
+          </div>
+          <div>
+            <i className="fa-brands fa-react"></i>
+            <p>React</p>
+          </div>
+
+          <div>
+            <i className="fa-brands fa-node-js"></i>
+            <p>Node JS</p>
           </div>
         </div>
       </section>

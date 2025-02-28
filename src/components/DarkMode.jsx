@@ -1,11 +1,11 @@
 const DarkMode = () => {
   return (
     <>
-      <label className="dark-mode-toggle" htmlFor="dark-mode">
+      <label for="darkMode">
         <i className="fa-solid fa-circle-half-stroke"></i>
       </label>
 
-      <input type="checkbox" id="dark-mode" />
+      <input type="checkbox" id="darkMode" />
     </>
   );
 };

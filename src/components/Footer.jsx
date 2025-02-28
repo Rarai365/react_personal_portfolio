@@ -1,54 +1,81 @@
-import { Link, Outlet } from "react-router";
+import { useState } from "react";
+
 const Footer = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert("Your inquiry has been submitted successfully!");
+  };
+
   return (
     <>
       <footer>
-        <div className="flex-container footer-container">
-          <div>
-            <h6>Links</h6>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/Skills">Skills</Link>
-              </li>
-              <li>
-                <Link to="/recentworks">Projects</Link>
-              </li>
-              <li>
-                <Link to="/aboutme">About</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h6>social links</h6>
-            <ul>
-              <li>
-                <a href="#">Linkeden</a>
-              </li>
-              <li>
-                <a href="#">GitHub</a>
-              </li>
-              <li>
-                <a href="#">Youtube</a>
-              </li>
-              <li>
-                <a href="#">Facebook</a>
-              </li>
-            </ul>
+        <div className="contact-me-form">
+          <div className="container">
+            <h2>Contact Me</h2>
+            <form onSubmit={handleSubmit}>
+              <div className="form-group">
+                <label htmlFor="email">Your Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div className="form-group">
+                <label htmlFor="message">Your Inquiry</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit">Submit Inquiry</button>
+            </form>
+
+            <div>
+              <h5 className="social-links-text">Get In Touch</h5>
+
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a
+                  href="https://github.com"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-github"></i> GitHub
+                </a>
+                <a
+                  href="https://www.youtube.com"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-youtube"></i> YouTube
+                </a>
+                <a
+                  href="https://www.facebook.com"
+                  className="social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fab fa-facebook"></i> Facebook
+                </a>
+              </div>
+            </div>
           </div>
         </div>
-
-        <center className="center-container">
-          &copy; Copy right all reserved. Made by RRR.
-        </center>
       </footer>
 
-      <Outlet />
+      <div>
+        <center className="center-container">
+          &copy; Copyright all rights reserved. Made by RRR.
+        </center>
+      </div>
     </>
   );
 };

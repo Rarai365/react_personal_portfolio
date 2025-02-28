@@ -1,9 +1,9 @@
 const GoToTop = () => {
   return (
     <>
-      <div className="go-to-top">
-        <a href="#home">
-          <i className="fa-solid fa-angle-up"></i>
+      <div class="go-to-top">
+        <a href="#home" class="nav-link">
+          <i class="fa-solid fa-angle-up"></i>
         </a>
       </div>
     </>
